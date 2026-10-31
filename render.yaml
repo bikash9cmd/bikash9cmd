@@ -109,3 +109,8 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.12.8
+  - type: web
+    name: bikash-kushwaha
+    runtime: static
+    buildCommand: echo "static site"
+    staticPublishPath: ./site

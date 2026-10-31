@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bikash Kushwaha · Projects</title>
+<meta name="description" content="Bikash Kushwaha, machine learning and cloud engineer from Nepal. Fifteen live projects in AI, machine learning, data engineering and cloud systems.">
+<meta property="og:title" content="Bikash Kushwaha · Projects">
+<meta property="og:description" content="Fifteen live projects in AI, machine learning, data engineering and cloud systems, built for Nepal.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@500&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23D7263D'/%3E%3Cstop offset='.55' stop-color='%238E1B5A'/%3E%3Cstop offset='1' stop-color='%232346D8'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='9' fill='url(%23g)'/%3E%3Ctext x='16' y='21' font-family='Arial' font-weight='700' font-size='13' fill='white' text-anchor='middle'%3EBK%3C/text%3E%3C/svg%3E">
+<style>
+  :root {
+    --ink: #0B1220; --muted: #5B6474; --faint: #9AA1AE; --line: #E6E8EE; --surface: #F6F7F9;
+    --accent: #2346D8; --crimson: #D7263D; --radius: 14px;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: #fff; color: var(--ink);
+    font: 16px/1.6 Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; text-decoration: none; }
+  [lang="ne"] { font-family: "Noto Sans Devanagari", Inter, sans-serif; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+
+  nav { position: sticky; top: 0; z-index: 10; background: rgba(255,255,255,.85); backdrop-filter: saturate(180%) blur(12px); border-bottom: 1px solid var(--line); }
+  nav .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 650; }
+  .mark { width: 32px; height: 32px; border-radius: 9px; display: grid; place-items: center; color: #fff; font-size: 12px; font-weight: 700;
+          background: linear-gradient(135deg, var(--crimson), #8E1B5A 55%, var(--accent)); }
+  .links { display: flex; gap: 6px; }
+  .btn { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 550; padding: 8px 14px; border-radius: 9px;
+         border: 1px solid var(--line); background: #fff; transition: background .15s, border-color .15s; white-space: nowrap; }
+  .btn:hover { background: var(--surface); border-color: #C9CEDA; }
+  .btn.primary { background: var(--ink); color: #fff; border-color: var(--ink); }
+  .btn.primary:hover { background: #222B3D; }
+  .btn:focus-visible, .chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  header.hero { position: relative; overflow: hidden; border-bottom: 1px solid var(--line); }
+  header.hero::before { content: ""; position: absolute; inset: -40% -10% auto auto; width: 720px; height: 720px; border-radius: 50%;
+    background: radial-gradient(closest-side, rgba(35,70,216,.10), rgba(215,38,61,.06) 55%, transparent); pointer-events: none; }
+  .hero .wrap { position: relative; padding-top: 88px; padding-bottom: 72px; }
+  .eyebrow { font-size: 13px; font-weight: 650; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+  h1 { font-size: clamp(40px, 6vw, 68px); line-height: 1.04; letter-spacing: -0.04em; margin: 14px 0 20px; max-width: 900px; font-weight: 700; }
+  h1 em { font-style: normal; background: linear-gradient(90deg, var(--crimson), var(--accent)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .lede { font-size: 19px; color: var(--muted); max-width: 680px; margin: 0 0 32px; }
+  .hero-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+  .hero-actions .btn { padding: 11px 18px; font-size: 15px; }
+  .stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; margin-top: 64px; border: 1px solid var(--line); border-radius: var(--radius); background: #fff; }
+  .stat { padding: 20px 22px; border-left: 1px solid var(--line); }
+  .stat:first-child { border-left: 0; }
+  .stat b { display: block; font-size: 28px; letter-spacing: -0.03em; }
+  .stat span { font-size: 14px; color: var(--muted); }
+
+  main .wrap { padding-top: 64px; padding-bottom: 32px; }
+  .section-head { display: flex; justify-content: space-between; align-items: end; gap: 24px; flex-wrap: wrap; margin-bottom: 24px; }
+  h2 { font-size: 32px; letter-spacing: -0.03em; margin: 0; }
+  .section-head p { color: var(--muted); margin: 6px 0 0; max-width: 560px; }
+  .chips { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 28px; }
+  .chip { font: inherit; font-size: 14px; font-weight: 550; padding: 7px 14px; border-radius: 999px; border: 1px solid var(--line); background: #fff; color: var(--ink); cursor: pointer; }
+  .chip span { color: var(--faint); margin-left: 4px; }
+  .chip.active { background: var(--ink); color: #fff; border-color: var(--ink); }
+  .chip.active span { color: rgba(255,255,255,.6); }
+  .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+  .card { display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; background: #fff;
+          transition: border-color .15s, box-shadow .15s, transform .15s; }
+  .card:hover { border-color: #CDD2DD; box-shadow: 0 10px 30px -12px rgba(11,18,32,.18); transform: translateY(-2px); }
+  .card[hidden] { display: none; }
+  .area { font-size: 12px; font-weight: 650; letter-spacing: .07em; text-transform: uppercase; color: var(--accent); }
+  .card h3 { font-size: 22px; letter-spacing: -0.02em; margin: 10px 0 6px; }
+  .card h3 span { color: var(--faint); font-weight: 500; font-size: 19px; margin-left: 4px; }
+  .card p { margin: 0 0 12px; color: var(--muted); font-size: 15px; }
+  .card .proof { color: var(--ink); font-size: 14px; font-weight: 500; padding-top: 12px; border-top: 1px dashed var(--line); margin-top: auto; }
+  .card-actions { display: flex; gap: 8px; margin-top: 6px; }
+  .card-actions .btn.primary { flex: 1; justify-content: center; }
+
+  .how { margin-top: 72px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+  .how div { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; }
+  .how h4 { margin: 0 0 6px; font-size: 16px; }
+  .how p { margin: 0; color: var(--muted); font-size: 15px; }
+
+  footer { border-top: 1px solid var(--line); margin-top: 72px; }
+  footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding-top: 28px; padding-bottom: 40px; color: var(--muted); font-size: 14px; }
+  footer b { color: var(--ink); }
+  footer nav { position: static; background: none; border: 0; backdrop-filter: none; display: flex; gap: 18px; }
+  footer nav a:hover { color: var(--ink); }
+
+  @media (max-width: 960px) { .grid, .how { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (max-width: 640px) {
+    .grid, .how { grid-template-columns: 1fr; }
+    .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .stat:nth-child(3) { border-left: 0; }
+    .stat:nth-child(n+3) { border-top: 1px solid var(--line); }
+    .links .hide-sm { display: none; }
+    .hero .wrap { padding-top: 56px; padding-bottom: 48px; }
+    .wrap { padding: 0 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) { .card, .btn { transition: none; } .card:hover { transform: none; } }
+</style>
+</head>
+<body>
+<nav>
+  <div class="wrap">
+    <a class="brand" href="#top"><span class="mark">BK</span>Bikash Kushwaha</a>
+    <div class="links">
+      <a class="btn hide-sm" href="#projects">Projects</a>
+      <a class="btn hide-sm" href="https://github.com/bikash9cmd" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn primary" href="https://www.linkedin.com/in/bikash9cmd" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="eyebrow">Machine learning and cloud engineer · Nepal</div>
+    <h1>Data and AI systems built for <em>Nepal's real problems</em>.</h1>
+    <p class="lede">Air quality, monsoon rain, landslides, the power grid, payments, earthquakes. Fifteen working projects, each with a live demo you can use right now, honest results, and the engineering behind it.</p>
+    <div class="hero-actions">
+      <a class="btn primary" href="#projects">Explore the projects</a>
+      <a class="btn" href="mailto:kushwahabikash9580@gmail.com">Get in touch</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><b>15</b><span>live projects</span></div>
+      <div class="stat"><b>5×</b><span>AWS certified</span></div>
+      <div class="stat"><b>0</b><span>API keys needed to try them</span></div>
+      <div class="stat"><b>BSc</b><span>Computer Science with AI</span></div>
+    </div>
+  </div>
+</header>
+
+<main id="projects">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <h2>Projects</h2>
+        <p>Every demo runs on a free server that sleeps when idle, so the first visit can take a minute to wake up.</p>
+      </div>
+    </div>
+    <div class="chips" role="group" aria-label="Filter projects">
+<button class="chip active" data-filter="all">All 15</button>
+<button class="chip" data-filter="AI assistants and agents">AI assistants and agents <span>6</span></button>
+<button class="chip" data-filter="Machine learning and MLOps">Machine learning and MLOps <span>4</span></button>
+<button class="chip" data-filter="Data engineering">Data engineering <span>3</span></button>
+<button class="chip" data-filter="Cloud systems">Cloud systems <span>2</span></button>
+    </div>
+    <div class="grid">
+      <article class="card" data-group="AI assistants and agents">
+        <div class="card-top"><span class="area">AI assistant</span></div>
+        <h3>Gopya <span lang="ne">गोप्य</span></h3>
+        <p>A company assistant that only knows what your role is allowed to know.</p>
+        <p class="proof">Access control enforced inside the vector store query</p>
+        <div class="card-actions">
+          <a class="btn primary" href="https://gopya.onrender.com" target="_blank" rel="noopener">Open live demo</a>
+          <a class="btn" href="https://github.com/bikash9cmd/gopya-company-rag" target="_blank" rel="noopener">Code</a>
+        </div>
+      </article>
+      <article class="card" data-group="AI assistants and agents">
+        <div class="card-top"><span class="area">AI agent</span></div>
+        <h3>Kagaj <span lang="ne">कागज</span></h3>
+        <p>Government papers in Nepal: what to bring, what it costs, every fee cited.</p>
+        <p class="proof">Every fee cited; answers checked by a deterministic gate</p>
+        <div class="card-actions">
+          <a class="btn primary" href="https://kagaj-nepal-docs.onrender.com" target="_blank" rel="noopener">Open live demo</a>
+          <a class="btn" href="https://github.com/bikash9cmd/kagaj-nepal-docs" target="_blank" rel="noopener">Code</a>
+        </div>
+      </article>
+      <article class="card" data-group="AI assistants and agents">
+        <div class="card-top"><span class="area">AI assistant</span></div>
+        <h3>Parkha <span lang="ne">पर्ख</span></h3>
+        <p>Pest advice for farmers that never skips the pre-harvest waiting period.</p>
+        <p class="proof">Every answer passes a 290-mutation tested safety gate</p>
+        <div class="card-actions">
+          <a class="btn primary" href="https://parkha-nepal-safe-harvest.onrender.com" target="_blank" rel="noopener">Open live demo</a>
+          <a class="btn" href="https://github.com/bikash9cmd/parkha-nepal-safe-harvest" target="_blank" rel="noopener">Code</a>
+        </div>
+      </article>
+      <article class="card" data-group="AI assistants and agents">
+        <div class="card-top"><span class="area">AI assistant</span></div>
+        <h3>Sodhnus <span lang="ne">सोध्नुस्</span></h3>
+        <p>Rainfall questions about Nepal, answered only from verified data.</p>
+        <p class="proof">Every number checked against the data before it is shown</p>
+        <div class="card-actions">
+          <a class="btn primary" href="https://sodhnus-nepal-rain-assistant.onrender.com" target="_blank" rel="noopener">Open live demo</a>
+          <a class="btn" href="https://github.com/bikash9cmd/sodhnus-nepal-rain-assistant" target="_blank" rel="noopener">Code</a>
+        </div>
+      </article>
+      <article class="card" data-group="AI assistants and agents">
+        <div class="card-top"><span class="area">Voice AI</span></div>
+        <h3>Ghanti <span lang="ne">घण्टी</span></h3>
+        <p>A phone agent for an internet provider that knows when to hand over.</p>
+        <p class="proof">Full voice loop that runs offline, no API keys</p>
+        <div class="card-actions">
+          <a class="btn primary" href="https://ghanti-isp-voice-agent.onrender.com" target="_blank" rel="noopener">Open live demo</a>
+          <a class="btn" href="https://github.com/bikash9cmd/ghanti-isp-voice-agent" target="_blank" rel="noopener">Code</a>
+        </div>
+      </article>
+      <article class="card" data-group="AI assistants and agents">
+        <div class="card-top"><span class="area">Machine learning</span></div>
+        <h3>Chhanot <span lang="ne">छनोट</span></h3>
+        <p>Support ticket triage that knows what it mustn&#x27;t handle alone.</p>
+        <p class="proof">Audits the one-in-eight wrong labels before training</p>
+        <div class="card-actions">
+          <a class="btn primary" href="https://chhanot-ticket-triage.onrender.com" target="_blank" rel="noopener">Open live demo</a>
+          <a class="btn" href="https://github.com/bikash9cmd/chhanot-ticket-triage" target="_blank" rel="noopener">Code</a>
+        </div>
+      </article>
+      <article class="card" data-group="Machine learning and MLOps">
+        <div class="card-top"><span class="area">Machine learning</span></div>
+        <h3>Hawa <span lang="ne">हावा</span></h3>
+        <p>Hour-by-hour PM2.5 forecasts and health alerts for the Kathmandu Valley.</p>
+        <p class="proof">15% lower error than the best naive forecast</p>
+        <div class="card-actions">
+          <a class="btn primary" href="https://hawa-kathmandu-air.onrender.com" target="_blank" rel="noopener">Open live demo</a>
+          <a class="btn" href="https://github.com/bikash9cmd/hawa-kathmandu-air" target="_blank" rel="noopener">Code</a>
+        </div>
+      </article>
+      <article class="card" data-group="Machine learning and MLOps">
+        <div class="card-top"><span class="area">MLOps</span></div>
+        <h3>Bijuli <span lang="ne">बिजुली</span></h3>
+        <p>Day-ahead electricity demand forecasts for Nepal&#x27;s grid, kept good for years.</p>
+        <p class="proof">26 months of operations replayed with faults injected</p>
+        <div class="card-actions">
+          <a class="btn primary" href="https://bijuli-nepal-grid-forecast.onrender.com" target="_blank" rel="noopener">Open live demo</a>
+          <a class="btn" href="https://github.com/bikash9cmd/bijuli-nepal-grid-forecast" target="_blank" rel="noopener">Code</a>
+        </div>
+      </article>
+      <article class="card" data-group="Machine learning and MLOps">
+        <div class="card-top"><span class="area">Computer vision</span></div>
+        <h3>Chowk <span lang="ne">चोक</span></h3>
+        <p>Vehicle-mix traffic counts for Kathmandu junctions, in passenger car units.</p>
+        <p class="proof">1.3% error in passenger car units on held-out sessions</p>
+        <div class="card-actions">
+          <a class="btn primary" href="https://chowk-kathmandu-traffic.onrender.com" target="_blank" rel="noopener">Open live demo</a>
+          <a class="btn" href="https://github.com/bikash9cmd/chowk-kathmandu-traffic" target="_blank" rel="noopener">Code</a>
+        </div>
+      </article>
+      <article class="card" data-group="Machine learning and MLOps">
+        <div class="card-top"><span class="area">Machine learning</span></div>
+        <h3>Pahiro <span lang="ne">पहिरो</span></h3>
+        <p>Landslide early warning for Nepal&#x27;s central hills.</p>
+        <p class="proof">2,260 landslide scars mapped from Sentinel-2</p>
+        <div class="card-actions">
+          <a class="btn primary" href="https://pahiro-nepal-landslide.onrender.com" target="_blank" rel="noopener">Open live demo</a>
+          <a class="btn" href="https://github.com/bikash9cmd/pahiro-nepal-landslide" target="_blank" rel="noopener">Code</a>
+        </div>
+      </article>
+      <article class="card" data-group="Data engineering">
+        <div class="card-top"><span class="area">Data engineering</span></div>
+        <h3>Barsha <span lang="ne">वर्षा</span></h3>
+        <p>Fifty years of Nepal&#x27;s rainfall in a lakehouse, with a daily bulletin.</p>
+        <p class="proof">50 years of station data for about $1.20 a month</p>
+        <div class="card-actions">
+          <a class="btn primary" href="https://barsha-nepal-monsoon-lakehouse.onrender.com" target="_blank" rel="noopener">Open live demo</a>
+          <a class="btn" href="https://github.com/bikash9cmd/barsha-nepal-monsoon-lakehouse" target="_blank" rel="noopener">Code</a>
+        </div>
+      </article>
+      <article class="card" data-group="Data engineering">
+        <div class="card-top"><span class="area">Data engineering</span></div>
+        <h3>Fohor <span lang="ne">फोहोर</span></h3>
+        <p>Where the Kathmandu Valley&#x27;s waste goes, and what a landfill blockade does.</p>
+        <p class="proof">Reads 0.18% of 119 GB of open data per run</p>
+        <div class="card-actions">
+          <a class="btn primary" href="https://fohor-kathmandu-waste.onrender.com" target="_blank" rel="noopener">Open live demo</a>
+          <a class="btn" href="https://github.com/bikash9cmd/fohor-kathmandu-waste" target="_blank" rel="noopener">Code</a>
+        </div>
+      </article>
+      <article class="card" data-group="Data engineering">
+        <div class="card-top"><span class="area">Streaming data</span></div>
+        <h3>Bhuktani <span lang="ne">भुक्तानी</span></h3>
+        <p>Real-time QR payments lakehouse that catches money stuck between banks.</p>
+        <p class="proof">Refund alert within about 3 minutes of a stuck payment</p>
+        <div class="card-actions">
+          <a class="btn primary" href="https://bhuktani-nepal-payments-stream.onrender.com" target="_blank" rel="noopener">Open live demo</a>
+          <a class="btn" href="https://github.com/bikash9cmd/bhuktani-nepal-payments-stream" target="_blank" rel="noopener">Code</a>
+        </div>
+      </article>
+      <article class="card" data-group="Cloud systems">
+        <div class="card-top"><span class="area">Cloud systems</span></div>
+        <h3>Bato <span lang="ne">बाटो</span></h3>
+        <p>Trek check-ins that notice a missing group, and storm holds for high passes.</p>
+        <p class="proof">Storm-hold rule scored on 10 years of real forecasts</p>
+        <div class="card-actions">
+          <a class="btn primary" href="https://bato-trek-safety-nepal.onrender.com" target="_blank" rel="noopener">Open live demo</a>
+          <a class="btn" href="https://github.com/bikash9cmd/bato-trek-safety-nepal" target="_blank" rel="noopener">Code</a>
+        </div>
+      </article>
+      <article class="card" data-group="Cloud systems">
+        <div class="card-top"><span class="area">Cloud systems</span></div>
+        <h3>Surakshit <span lang="ne">सुरक्षित</span></h3>
+        <p>&quot;I&#x27;m safe&quot; check-ins for the next big earthquake in Nepal.</p>
+        <p class="proof">Designed to lose no check-ins at 15 million people</p>
+        <div class="card-actions">
+          <a class="btn primary" href="https://surakshit-nepal-quake-checkin.onrender.com" target="_blank" rel="noopener">Open live demo</a>
+          <a class="btn" href="https://github.com/bikash9cmd/surakshit-nepal-quake-checkin" target="_blank" rel="noopener">Code</a>
+        </div>
+      </article>
+    </div>
+
+    <section class="how" aria-label="How these are built">
+      <div><h4>Real data, honest numbers</h4><p>Built on open data from NOAA, Sentinel-2, Overture Maps and Nepal's own agencies, with results measured on held-out data.</p></div>
+      <div><h4>Production engineering</h4><p>Quality gates, model registries, shadow rollouts, exactly-once streams and tests against mocked AWS, not just notebooks.</p></div>
+      <div><h4>Designed to be cheap</h4><p>Serverless AWS designs that cost a few dollars a month, with the cost model written down for each one.</p></div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><b>Bikash Kushwaha</b> · Machine learning and cloud engineer, Nepal</div>
+    <nav>
+      <a href="mailto:kushwahabikash9580@gmail.com">Email</a>
+      <a href="https://github.com/bikash9cmd" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/bikash9cmd" target="_blank" rel="noopener">LinkedIn</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+  const chips = document.querySelectorAll(".chip");
+  const cards = document.querySelectorAll(".card");
+  chips.forEach((chip) => chip.addEventListener("click", () => {
+    chips.forEach((c) => c.classList.toggle("active", c === chip));
+    const f = chip.dataset.filter;
+    cards.forEach((card) => { card.hidden = f !== "all" && card.dataset.group !== f; });
+  }));
+</script>
+</body>
+</html>
