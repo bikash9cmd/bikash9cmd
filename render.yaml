@@ -110,7 +110,7 @@ services:
       - key: PYTHON_VERSION
         value: 3.12.8
   - type: web
-    name: bikash-kushwaha
+    name: bikash9cmd-portfolio
     runtime: static
     buildCommand: echo "static site"
     staticPublishPath: ./site
