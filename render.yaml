@@ -110,6 +110,20 @@ services:
       - key: PYTHON_VERSION
         value: 3.12.8
   - type: web
+    name: gopya
+    repo: https://github.com/bikash9cmd/gopya-company-rag
+    branch: main
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt && python -m gopya ingest
+    startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true --browser.gatherUsageStats false
+    healthCheckPath: /_stcore/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
+      - key: ANONYMIZED_TELEMETRY
+        value: "False"
+  - type: web
     name: bikash9cmd-portfolio
     runtime: static
     buildCommand: echo "static site"
