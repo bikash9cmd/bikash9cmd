@@ -1,0 +1,111 @@
+# One Render Blueprint for the live demos of the portfolio projects (free web services).
+# Render > New > Blueprint, pick this repo, Apply. Each service builds from its own repo.
+services:
+  - type: web
+    name: barsha-nepal-monsoon-lakehouse
+    repo: https://github.com/bikash9cmd/barsha-nepal-monsoon-lakehouse
+    branch: main
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements-app.txt && python -m barsha --lake lake run --backfill
+    startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true --browser.gatherUsageStats false
+    healthCheckPath: /_stcore/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
+  - type: web
+    name: bato-trek-safety-nepal
+    repo: https://github.com/bikash9cmd/bato-trek-safety-nepal
+    branch: main
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements-app.txt
+    startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true --browser.gatherUsageStats false
+    healthCheckPath: /_stcore/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
+  - type: web
+    name: bijuli-nepal-grid-forecast
+    repo: https://github.com/bikash9cmd/bijuli-nepal-grid-forecast
+    branch: main
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements-app.txt && python -m bijuli download && python -m bijuli train
+    startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true --browser.gatherUsageStats false
+    healthCheckPath: /_stcore/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
+  - type: web
+    name: chowk-kathmandu-traffic
+    repo: https://github.com/bikash9cmd/chowk-kathmandu-traffic
+    branch: main
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements-app.txt && python -m chowk download && python -m chowk train --bootstrap
+    startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true --browser.gatherUsageStats false
+    healthCheckPath: /_stcore/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
+  - type: web
+    name: fohor-kathmandu-waste
+    repo: https://github.com/bikash9cmd/fohor-kathmandu-waste
+    branch: main
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements-app.txt && python -m fohor --lake lake run
+    startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true --browser.gatherUsageStats false
+    healthCheckPath: /_stcore/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
+  - type: web
+    name: hawa-kathmandu-air
+    repo: https://github.com/bikash9cmd/hawa-kathmandu-air
+    branch: main
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements-app.txt && python -m hawa download && python -m hawa train --until 2017-12-01
+    startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true --browser.gatherUsageStats false
+    healthCheckPath: /_stcore/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
+  - type: web
+    name: parkha-nepal-safe-harvest
+    repo: https://github.com/bikash9cmd/parkha-nepal-safe-harvest
+    branch: main
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements-app.txt
+    startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true --browser.gatherUsageStats false
+    healthCheckPath: /_stcore/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
+  - type: web
+    name: sodhnus-nepal-rain-assistant
+    repo: https://github.com/bikash9cmd/sodhnus-nepal-rain-assistant
+    branch: main
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements-app.txt
+    startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true --browser.gatherUsageStats false
+    healthCheckPath: /_stcore/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
+  - type: web
+    name: surakshit-nepal-quake-checkin
+    repo: https://github.com/bikash9cmd/surakshit-nepal-quake-checkin
+    branch: main
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements-app.txt
+    startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true --browser.gatherUsageStats false
+    healthCheckPath: /_stcore/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
