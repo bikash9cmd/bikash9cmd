@@ -37,15 +37,18 @@
 
 | Project | What it does |
 |---|---|
-| [Hawa](https://github.com/bikash9cmd/hawa-kathmandu-air) | Hour-by-hour PM2.5 forecasts and health alerts for Kathmandu, 15% lower error than the best naive forecast |
-| [Sodhnus](https://github.com/bikash9cmd/sodhnus-nepal-rain-assistant) | Nepali and English rainfall assistant on Amazon Bedrock that answers only from verified data |
-| [Barsha](https://github.com/bikash9cmd/barsha-nepal-monsoon-lakehouse) | Serverless lakehouse over 50 years of Nepal rainfall, with a data-quality gate and extreme-rain bulletin |
-| [Bijuli](https://github.com/bikash9cmd/bijuli-nepal-grid-forecast) | Day-ahead demand forecast for Nepal's grid, with gated retraining, shadow mode and automatic rollback |
-| [Chowk](https://github.com/bikash9cmd/chowk-kathmandu-traffic) | Edge vehicle counting for Kathmandu junctions, 1.3% PCU error, serverless on IoT Core |
-| [Bato](https://github.com/bikash9cmd/bato-trek-safety-nepal) | Trek safety check-ins and storm holds for Himalayan passes using NOAA GEFS forecasts |
-| [Surakshit](https://github.com/bikash9cmd/surakshit-nepal-quake-checkin) | "I'm safe" earthquake check-in service designed to lose no check-ins at 15 million users |
-| [Parkha](https://github.com/bikash9cmd/parkha-nepal-safe-harvest) | Bedrock assistant that tells farmers when a sprayed crop is safe to harvest |
-| [Fohor](https://github.com/bikash9cmd/fohor-kathmandu-waste) | Lakehouse on AWS Open Data that models Kathmandu Valley waste and landfill blockades |
+| [Bedrock AgentCore Support Agent](https://github.com/bikash9cmd/bedrock-agentcore-support-agent) | Production-grade AI customer support agent on Amazon Bedrock AgentCore with persistent memory, tool gateway, Cognito auth and LLM evaluation |
+| [AI Customer Service Agent on EKS](https://github.com/bikash9cmd/ai-customer-service-agent-eks) | Strands Agents SDK with self-hosted Qwen2.5-3B (vLLM + LiteLLM), containerised and deployed on Amazon EKS |
+| [RBAC RAG Document Chatbot](https://github.com/bikash9cmd/rbac-rag-document-chatbot) | Company document chatbot (RAG) with role-based access control enforced inside the vector store query |
+| [Electricity Demand Forecast (MLOps)](https://github.com/bikash9cmd/electricity-demand-forecast-mlops) | Day-ahead demand forecast for Nepal's grid, with gated retraining, shadow mode and automatic rollback |
+| [Traffic Vehicle Detection (Edge AI)](https://github.com/bikash9cmd/traffic-vehicle-detection-edge) | Edge vehicle counting for Kathmandu junctions, 1.3% PCU error, serverless on IoT Core |
+| [Air Quality Forecast](https://github.com/bikash9cmd/air-quality-forecast-kathmandu) | Hour-by-hour PM2.5 forecasts and health alerts for Kathmandu, 15% lower error than the best naive forecast |
+| [Bilingual Rainfall RAG Assistant](https://github.com/bikash9cmd/bilingual-rainfall-rag-assistant) | Nepali and English rainfall assistant on Amazon Bedrock that answers only from verified data |
+| [Crop Pest Advisor (LLM)](https://github.com/bikash9cmd/crop-pest-advisor-llm) | Bedrock assistant that tells farmers when a sprayed crop is safe to harvest |
+| [Monsoon Rainfall Lakehouse](https://github.com/bikash9cmd/monsoon-rainfall-lakehouse-nepal) | Serverless lakehouse over 50 years of Nepal rainfall, with a data-quality gate and extreme-rain bulletin |
+| [Earthquake Safety Check-in](https://github.com/bikash9cmd/earthquake-safety-checkin-nepal) | "I'm safe" earthquake check-in service designed to lose no check-ins at 15 million users |
+| [Trekker Safety Alerts](https://github.com/bikash9cmd/trekker-safety-alerts-nepal) | Trek safety check-ins and storm holds for Himalayan passes using NOAA GEFS forecasts |
+| [Waste Flow Pipeline](https://github.com/bikash9cmd/waste-flow-pipeline-kathmandu) | Lakehouse on AWS Open Data that models Kathmandu Valley waste and landfill blockades |
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
