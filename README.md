@@ -3,7 +3,11 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=bikash9cmd&label=Profile%20views&color=0e75b6&style=flat" alt="bikash9cmd" /> </p>
 
-- 🔭 I'm currently working on **open-source ML and data projects on AWS for Nepal's air, rain, roads, power and disasters**
+- 💼 **AI Software Engineering Intern** at [Asterdio](https://github.com/asterdio), Lalitpur
+
+- 🛠️ Previously: ML Engineer Apprentice at TekBay Digital Solutions · Solutions Architect Apprentice at Adex International · Data Engineer at DataCamp
+
+- 🔭 I'm also building **open-source ML and data projects on AWS for Nepal's air, rain, roads, power and disasters**
 
 - 🌱 I'm currently learning **MLOps at scale, Amazon Bedrock agents, Kubernetes (EKS) and LLM evaluation**
 
@@ -11,13 +15,23 @@
 
 - ☁️ **5× AWS Certified**: Machine Learning Engineer, Data Engineer, Solutions Architect, AI Practitioner, Cloud Practitioner
 
-- 👨‍💻 All of my projects are available at [https://github.com/bikash9cmd?tab=repositories](https://github.com/bikash9cmd?tab=repositories)
+- 👨‍💻 All of my projects are available at [my repositories](https://github.com/bikash9cmd?tab=repositories)
 
-- 📝 I write about cloud and ML on [https://www.linkedin.com/in/bikash9cmd](https://www.linkedin.com/in/bikash9cmd)
+- 📝 I write about cloud and ML on [LinkedIn](https://www.linkedin.com/in/bikash9cmd)
 
 - 💬 Ask me about **AWS, MLOps, forecasting and building on Bedrock**
 
-- 📫 How to reach me **kushwahabikash9580@gmail.com**
+- 📫 How to reach me [kushwahabikash9580@gmail.com](mailto:kushwahabikash9580@gmail.com)
+
+### ☁️ AWS Certifications
+
+<p align="left">
+<img src="https://img.shields.io/badge/AWS-ML%20Engineer%20Associate-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS Certified Machine Learning Engineer Associate" />
+<img src="https://img.shields.io/badge/AWS-Data%20Engineer%20Associate-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS Certified Data Engineer Associate" />
+<img src="https://img.shields.io/badge/AWS-Solutions%20Architect%20Associate-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS Certified Solutions Architect Associate" />
+<img src="https://img.shields.io/badge/AWS-AI%20Practitioner-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS Certified AI Practitioner" />
+<img src="https://img.shields.io/badge/AWS-Cloud%20Practitioner-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS Certified Cloud Practitioner" />
+</p>
 
 ### 🚀 Featured projects
 
@@ -40,7 +54,7 @@
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
-<a href="https://aws.amazon.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/></a>
+<a href="https://aws.amazon.com" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/></a>
 <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></a>
 <a href="https://www.terraform.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg" alt="terraform" width="40" height="40"/></a>
 <a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/></a>
