@@ -1,82 +1,83 @@
-<h1 align="center">Hi 👋, I'm Bikash Kushwaha</h1>
-<h3 align="center">AI / Machine Learning Engineer from Nepal · LLM and GenAI applications · MLOps · 5× AWS Certified</h3>
+<h1 align="center">Hi, I'm Bikash Kushwaha 👋</h1>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=bikash9cmd&label=Profile%20views&color=0e75b6&style=flat" alt="bikash9cmd" /> </p>
+<h3 align="center">AI / Machine Learning Engineer · LLMs and Generative AI · MLOps on AWS · 5× AWS Certified</h3>
 
-- 💼 **AI Software Engineering Intern** at [Asterdio](https://github.com/asterdio), Lalitpur: AI tools for the Breqo app, and agentic AI prototypes for Nepali banks (KYC, AML, credit review) behind a PII "Privacy Shield"
+<p align="center">
+  <a href="https://www.linkedin.com/in/bikash9cmd"><img src="https://img.shields.io/badge/LinkedIn-bikash9cmd-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:kushwahabikash9580@gmail.com"><img src="https://img.shields.io/badge/Email-kushwahabikash9580%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://bikash9cmd-portfolio.onrender.com"><img src="https://img.shields.io/badge/Portfolio-live%20demos-46E3B7?style=flat&logo=render&logoColor=white" alt="Portfolio with live demos" /></a>
+  <img src="https://img.shields.io/badge/Based%20in-Kathmandu%2C%20Nepal-DC143C?style=flat" alt="Based in Kathmandu, Nepal" />
+  <img src="https://komarev.com/ghpvc/?username=bikash9cmd&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+</p>
 
-- 🤖 **Machine Learning Intern** at FlyRank AI, Kathmandu, and **Independent Contractor, AI Training** at Mercor (Machine Learning Engineer Talent Network)
+I build, evaluate and ship machine learning and LLM systems on AWS: RAG and Amazon Bedrock assistants with grounding and safety checks, privacy-preserving AI workflows for banking, time-series forecasting backtested against baselines, edge computer vision, and MLOps pipelines with gated releases, automatic rollback and drift monitoring.
 
-- 🛠️ Previously: ML Engineer Apprentice at TekBay Digital Solutions · Solutions Architect Apprentice at Adex International · Data Engineer at DataCamp
+Most of my open-source work tackles real problems in Nepal (air, rain, roads, power, farming and earthquakes), built on real data and measured against honest baselines.
 
-- 🔭 I'm also building **open-source ML and data projects on AWS for Nepal's air, rain, roads, power and disasters**
+## 💼 What I'm doing now
 
-- 🌱 I'm currently learning **MLOps at scale, Amazon Bedrock agents, Kubernetes (EKS), LLM evaluation and AI search (SEO, GEO)**
+- **AI Software Engineering Intern** at [Asterdio](https://github.com/asterdio), Lalitpur: AI tools for the Breqo app, 3 agentic-AI prototypes for Nepali commercial banks (KYC update, AML alert triage, credit review), and a bank-side **Privacy Shield** that tokenises 8 customer identifiers and blocks any upload that fails a PII leak test
+- **Machine Learning Intern** at FlyRank AI, Kathmandu: applied ML, AI agents and AI search (SEO, GEO)
+- **Independent Contractor, AI Training** at Mercor: rubric-based AI training and evaluation data for a leading AI research lab; member of Mercor's Machine Learning Engineer Talent Network
+- 🎓 **BSc (Hons) Computer Science with AI**, Birmingham City University (Sunway College Kathmandu), expected 2028
 
-- 🎓 Studying **BSc (Hons) Computer Science with AI** at Birmingham City University (Sunway College Kathmandu), expected 2028
+**Previously:** Machine Learning Engineer Apprentice at TekBay Digital Solutions (full ML lifecycle on AWS, fraud-detection capstone with S3, Glue DataBrew and SageMaker) · Solutions Architect Apprentice at Adex International (Terraform infrastructure as code that cut manual provisioning time by 40%) · Data Engineer at DataCamp
 
-- ☁️ **5× AWS Certified**: Machine Learning Engineer, Data Engineer, Solutions Architect, AI Practitioner, Cloud Practitioner, plus AWS BeSA Agentic AI: PoC to Production
+## 🚀 Featured projects
 
-- 👨‍💻 All of my projects are available at [my repositories](https://github.com/bikash9cmd?tab=repositories)
+| Project | What it does | Results |
+|---|---|---|
+| ⚡ [**Bijuli**: Grid demand forecasting + MLOps](https://github.com/bikash9cmd/electricity-demand-forecast-mlops) | Day-ahead hourly electricity demand for Nepal's grid, with a model registry, shadow rollout, automatic rollback and drift monitoring | **3.27% MAPE** over 23,184 walk-forward forecasts, 30% below the best naive baseline; gated releases cut worst-week error from 9.8% to 7.45% |
+| 🚦 [**Chowk**: Edge AI traffic classification](https://github.com/bikash9cmd/traffic-vehicle-detection-edge) | Vehicle-mix counts for Kathmandu junctions from 30 real street videos, running on the edge with a serverless AWS backend | Accuracy **63.2% → 93.9%**; traffic-volume (PCU) error 45.7% → 1.3%; 24 ms per 720p frame on one CPU core |
+| 🌾 [**Parkha**: Bilingual crop pest advisor](https://github.com/bikash9cmd/crop-pest-advisor-llm) | Nepali/English Amazon Bedrock assistant that computes safe-harvest dates from official pesticide labels, never from model output | Safety gate caught **290/290** seeded wrong answers; 18/20 on a held-out evaluation set |
+| 🔐 [**Gopya**: Secure company RAG chatbot](https://github.com/bikash9cmd/rbac-rag-document-chatbot) | Role-based access control enforced inside the vector query, plus PII redaction and prompt-injection guards | Right document in the top 4 for **100% of 69** test questions; **0 leaks across 45 attacks** |
+| 🌧️ [**Sodhnus**: Bilingual rainfall assistant](https://github.com/bikash9cmd/bilingual-rainfall-rag-assistant) | Bedrock tool-use assistant over 5 read-only tools that answers only from verified rainfall data | A deterministic number checker caught **97%** of wrong answers in a 350-case adversarial test; Guardrails cost cut 4.2× |
+| 🏞️ [**Barsha**: Monsoon rainfall lakehouse](https://github.com/bikash9cmd/monsoon-rainfall-lakehouse-nepal) | Serverless lakehouse on S3, Lambda, DuckDB and Athena over 50 years of Nepal station data | 67,215 station-days for about **$1.20/month**; quality checks caught 4,599 false zero readings |
+| 🌫️ [**Hawa**: Kathmandu PM2.5 forecasting](https://github.com/bikash9cmd/air-quality-forecast-kathmandu) | Hourly next-day air-quality forecasts with English/Nepali alerts on serverless AWS | **15% lower error** than the best naive forecast; 40% fewer missed bad-air days |
+| 🆘 [**Surakshit**: Earthquake check-in service](https://github.com/bikash9cmd/earthquake-safety-checkin-nepal) | Multi-region, queue-first "I'm safe" check-ins by web or SMS | **0% lost** in a 15-million-user load simulation, vs 45% for a naive design |
 
-- 📝 I write about cloud and ML on [LinkedIn](https://www.linkedin.com/in/bikash9cmd)
+<details>
+<summary><b>More projects</b></summary>
+<br>
 
-- 💬 Ask me about **AWS, MLOps, forecasting, RAG and building agents on Bedrock**
+- 🤖 [Bedrock AgentCore Support Agent](https://github.com/bikash9cmd/bedrock-agentcore-support-agent): customer support agent on Amazon Bedrock AgentCore with Strands Agents, Cognito JWT auth, Cedar policies and OpenTelemetry tracing
+- ☸️ [AI Customer Service Agent on EKS](https://github.com/bikash9cmd/ai-customer-service-agent-eks): Strands Agents with self-hosted Qwen2.5-3B (vLLM + LiteLLM) on Amazon EKS
+- 🧠 [MLOps Depression-Risk Pipeline](https://github.com/bikash9cmd/mlops-depression-risk-pipeline): Airflow, FastAPI, Redis, MariaDB, Evidently AI, Prometheus and Grafana on Docker Compose
+- 🏔️ [Trekker Safety Alerts](https://github.com/bikash9cmd/trekker-safety-alerts-nepal): trek check-ins and storm holds for Himalayan passes using NOAA GEFS forecasts
+- ♻️ [Waste Flow Pipeline](https://github.com/bikash9cmd/waste-flow-pipeline-kathmandu): lakehouse on AWS Open Data modelling Kathmandu Valley waste flows and landfill blockades
+- 📂 [All repositories](https://github.com/bikash9cmd?tab=repositories)
 
-- 📫 How to reach me [kushwahabikash9580@gmail.com](mailto:kushwahabikash9580@gmail.com)
+</details>
 
-### ☁️ AWS Certifications
+## ☁️ Certifications
 
 <p align="left">
 <img src="https://img.shields.io/badge/AWS-ML%20Engineer%20Associate-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS Certified Machine Learning Engineer Associate" />
-<img src="https://img.shields.io/badge/AWS-Data%20Engineer%20Associate-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS Certified Data Engineer Associate" />
 <img src="https://img.shields.io/badge/AWS-Solutions%20Architect%20Associate-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS Certified Solutions Architect Associate" />
+<img src="https://img.shields.io/badge/AWS-Data%20Engineer%20Associate-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS Certified Data Engineer Associate" />
 <img src="https://img.shields.io/badge/AWS-AI%20Practitioner-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS Certified AI Practitioner" />
 <img src="https://img.shields.io/badge/AWS-Cloud%20Practitioner-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS Certified Cloud Practitioner" />
+<img src="https://img.shields.io/badge/AWS%20BeSA-Agentic%20AI%3A%20PoC%20to%20Production-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS BeSA Agentic AI: PoC to Production on AWS" />
 </p>
 
-### 🚀 Featured projects
+## 🛠️ Tech stack
 
-| Project | What it does |
-|---|---|
-| [Bedrock AgentCore Support Agent](https://github.com/bikash9cmd/bedrock-agentcore-support-agent) | Production-grade AI customer support agent on Amazon Bedrock AgentCore with persistent memory, tool gateway, Cognito auth and LLM evaluation |
-| [AI Customer Service Agent on EKS](https://github.com/bikash9cmd/ai-customer-service-agent-eks) | Strands Agents SDK with self-hosted Qwen2.5-3B (vLLM + LiteLLM), containerised and deployed on Amazon EKS |
-| [RBAC RAG Document Chatbot](https://github.com/bikash9cmd/rbac-rag-document-chatbot) | Company document chatbot (RAG) with role-based access control enforced inside the vector store query; right document in the top 4 for 100% of 69 test questions, 0 leaks across 45 attacks |
-| [Electricity Demand Forecast (MLOps)](https://github.com/bikash9cmd/electricity-demand-forecast-mlops) | Day-ahead demand forecast for Nepal's grid (3.27% MAPE, 30% below the best naive baseline), with gated retraining, shadow mode and automatic rollback |
-| [Traffic Vehicle Detection (Edge AI)](https://github.com/bikash9cmd/traffic-vehicle-detection-edge) | Edge vehicle classification for Kathmandu junctions: 93.9% accuracy vs 63.2% off-the-shelf, 1.3% PCU error, serverless on IoT Core |
-| [Air Quality Forecast](https://github.com/bikash9cmd/air-quality-forecast-kathmandu) | Hour-by-hour PM2.5 forecasts and health alerts for Kathmandu, 15% lower error than the best naive forecast |
-| [Bilingual Rainfall RAG Assistant](https://github.com/bikash9cmd/bilingual-rainfall-rag-assistant) | Nepali and English rainfall assistant on Amazon Bedrock that answers only from verified data |
-| [Crop Pest Advisor (LLM)](https://github.com/bikash9cmd/crop-pest-advisor-llm) | Bilingual Bedrock assistant that tells farmers when a sprayed crop is safe to harvest; its safety gate caught 290/290 seeded wrong answers |
-| [Monsoon Rainfall Lakehouse](https://github.com/bikash9cmd/monsoon-rainfall-lakehouse-nepal) | Serverless lakehouse over 50 years of Nepal rainfall, with a data-quality gate and extreme-rain bulletin |
-| [Earthquake Safety Check-in](https://github.com/bikash9cmd/earthquake-safety-checkin-nepal) | "I'm safe" earthquake check-in service designed to lose no check-ins at 15 million users |
-| [Trekker Safety Alerts](https://github.com/bikash9cmd/trekker-safety-alerts-nepal) | Trek safety check-ins and storm holds for Himalayan passes using NOAA GEFS forecasts |
-| [Waste Flow Pipeline](https://github.com/bikash9cmd/waste-flow-pipeline-kathmandu) | Lakehouse on AWS Open Data that models Kathmandu Valley waste and landfill blockades |
+**Machine learning:** scikit-learn · LightGBM · time-series and quantile forecasting · walk-forward backtesting · computer vision (YOLOX, edge inference) · Amazon SageMaker · drift detection (Evidently AI)
 
-<h3 align="left">Connect with me:</h3>
+**Generative AI and LLMs:** Amazon Bedrock (tool use, Guardrails, AgentCore) · RAG (LangChain, FAISS, Chroma, Milvus, BM25 hybrid search) · AI agents (Strands, MCP, multi-agent A2A) · LLM-as-a-Judge evaluation · vLLM · LiteLLM · Langfuse · PII masking
+
+**AWS:** IAM · VPC · EC2 · S3 · Lambda · Step Functions · EventBridge · SQS · API Gateway · DynamoDB · RDS · Athena · Glue DataBrew · IoT Core · CloudFront · WAF · CloudWatch
+
+**MLOps and DevOps:** Terraform · AWS SAM · Docker · Kubernetes (EKS) · GitHub Actions · MLflow · Apache Airflow · FastAPI · Prometheus · Grafana · Linux
+
+**Languages and data:** Python · SQL · Bash · Pandas · NumPy · DuckDB · Parquet
+
 <p align="left">
-<a href="https://linkedin.com/in/bikash9cmd" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="bikash9cmd" height="30" width="40" /></a>
+<img src="https://skillicons.dev/icons?i=python,aws,terraform,docker,kubernetes,fastapi,githubactions,grafana,prometheus,linux,bash,git&perline=12" alt="Python, AWS, Terraform, Docker, Kubernetes, FastAPI, GitHub Actions, Grafana, Prometheus, Linux, Bash, Git" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left">
-<a href="https://aws.amazon.com" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/></a>
-<a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></a>
-<a href="https://www.terraform.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg" alt="terraform" width="40" height="40"/></a>
-<a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/></a>
-<a href="https://kubernetes.io" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-original.svg" alt="kubernetes" width="40" height="40"/></a>
-<a href="https://fastapi.tiangolo.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="fastapi" width="40" height="40"/></a>
-<a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg" alt="django" width="40" height="40"/></a>
-<a href="https://airflow.apache.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apacheairflow/apacheairflow-original.svg" alt="airflow" width="40" height="40"/></a>
-<a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg" alt="scikit-learn" width="40" height="40"/></a>
-<a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/></a>
-<a href="https://numpy.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" alt="numpy" width="40" height="40"/></a>
-<a href="https://grafana.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/grafana/grafana-original.svg" alt="grafana" width="40" height="40"/></a>
-<a href="https://prometheus.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/prometheus/prometheus-original.svg" alt="prometheus" width="40" height="40"/></a>
-<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/></a>
-<a href="https://redis.io" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/></a>
-<a href="https://www.nginx.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/></a>
-<a href="https://www.linux.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/></a>
-<a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" alt="bash" width="40" height="40"/></a>
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="40" height="40"/></a>
-<a href="https://github.com/features/actions" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/githubactions/githubactions-original.svg" alt="github actions" width="40" height="40"/></a>
-</p>
+## 💬 Ask me about
+
+AWS architecture · MLOps · forecasting · RAG · building and evaluating agents on Amazon Bedrock · making LLM answers safe to trust
+
+<p align="center"><i>Open to AI/ML engineering roles and collaborations. The fastest way to reach me is <a href="mailto:kushwahabikash9580@gmail.com">email</a> or <a href="https://www.linkedin.com/in/bikash9cmd">LinkedIn</a>.</i></p>
