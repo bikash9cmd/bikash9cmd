@@ -1,25 +1,27 @@
 <h1 align="center">Hi 👋, I'm Bikash Kushwaha</h1>
-<h3 align="center">A Machine Learning and Cloud engineer from Nepal, building ML and data systems on AWS</h3>
+<h3 align="center">AI / Machine Learning Engineer from Nepal · LLM and GenAI applications · MLOps · 5× AWS Certified</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=bikash9cmd&label=Profile%20views&color=0e75b6&style=flat" alt="bikash9cmd" /> </p>
 
-- 💼 **AI Software Engineering Intern** at [Asterdio](https://github.com/asterdio), Lalitpur
+- 💼 **AI Software Engineering Intern** at [Asterdio](https://github.com/asterdio), Lalitpur: AI tools for the Breqo app, and agentic AI prototypes for Nepali banks (KYC, AML, credit review) behind a PII "Privacy Shield"
+
+- 🤖 **Machine Learning Intern** at FlyRank AI, Kathmandu, and **Independent Contractor, AI Training** at Mercor (Machine Learning Engineer Talent Network)
 
 - 🛠️ Previously: ML Engineer Apprentice at TekBay Digital Solutions · Solutions Architect Apprentice at Adex International · Data Engineer at DataCamp
 
 - 🔭 I'm also building **open-source ML and data projects on AWS for Nepal's air, rain, roads, power and disasters**
 
-- 🌱 I'm currently learning **MLOps at scale, Amazon Bedrock agents, Kubernetes (EKS) and LLM evaluation**
+- 🌱 I'm currently learning **MLOps at scale, Amazon Bedrock agents, Kubernetes (EKS), LLM evaluation and AI search (SEO, GEO)**
 
-- 🎓 Studying **BSc (Hons) Computer Science with AI** at Birmingham City University
+- 🎓 Studying **BSc (Hons) Computer Science with AI** at Birmingham City University (Sunway College Kathmandu), expected 2028
 
-- ☁️ **5× AWS Certified**: Machine Learning Engineer, Data Engineer, Solutions Architect, AI Practitioner, Cloud Practitioner
+- ☁️ **5× AWS Certified**: Machine Learning Engineer, Data Engineer, Solutions Architect, AI Practitioner, Cloud Practitioner, plus AWS BeSA Agentic AI: PoC to Production
 
 - 👨‍💻 All of my projects are available at [my repositories](https://github.com/bikash9cmd?tab=repositories)
 
 - 📝 I write about cloud and ML on [LinkedIn](https://www.linkedin.com/in/bikash9cmd)
 
-- 💬 Ask me about **AWS, MLOps, forecasting and building on Bedrock**
+- 💬 Ask me about **AWS, MLOps, forecasting, RAG and building agents on Bedrock**
 
 - 📫 How to reach me [kushwahabikash9580@gmail.com](mailto:kushwahabikash9580@gmail.com)
 
@@ -39,12 +41,12 @@
 |---|---|
 | [Bedrock AgentCore Support Agent](https://github.com/bikash9cmd/bedrock-agentcore-support-agent) | Production-grade AI customer support agent on Amazon Bedrock AgentCore with persistent memory, tool gateway, Cognito auth and LLM evaluation |
 | [AI Customer Service Agent on EKS](https://github.com/bikash9cmd/ai-customer-service-agent-eks) | Strands Agents SDK with self-hosted Qwen2.5-3B (vLLM + LiteLLM), containerised and deployed on Amazon EKS |
-| [RBAC RAG Document Chatbot](https://github.com/bikash9cmd/rbac-rag-document-chatbot) | Company document chatbot (RAG) with role-based access control enforced inside the vector store query |
-| [Electricity Demand Forecast (MLOps)](https://github.com/bikash9cmd/electricity-demand-forecast-mlops) | Day-ahead demand forecast for Nepal's grid, with gated retraining, shadow mode and automatic rollback |
-| [Traffic Vehicle Detection (Edge AI)](https://github.com/bikash9cmd/traffic-vehicle-detection-edge) | Edge vehicle counting for Kathmandu junctions, 1.3% PCU error, serverless on IoT Core |
+| [RBAC RAG Document Chatbot](https://github.com/bikash9cmd/rbac-rag-document-chatbot) | Company document chatbot (RAG) with role-based access control enforced inside the vector store query; right document in the top 4 for 100% of 69 test questions, 0 leaks across 45 attacks |
+| [Electricity Demand Forecast (MLOps)](https://github.com/bikash9cmd/electricity-demand-forecast-mlops) | Day-ahead demand forecast for Nepal's grid (3.27% MAPE, 30% below the best naive baseline), with gated retraining, shadow mode and automatic rollback |
+| [Traffic Vehicle Detection (Edge AI)](https://github.com/bikash9cmd/traffic-vehicle-detection-edge) | Edge vehicle classification for Kathmandu junctions: 93.9% accuracy vs 63.2% off-the-shelf, 1.3% PCU error, serverless on IoT Core |
 | [Air Quality Forecast](https://github.com/bikash9cmd/air-quality-forecast-kathmandu) | Hour-by-hour PM2.5 forecasts and health alerts for Kathmandu, 15% lower error than the best naive forecast |
 | [Bilingual Rainfall RAG Assistant](https://github.com/bikash9cmd/bilingual-rainfall-rag-assistant) | Nepali and English rainfall assistant on Amazon Bedrock that answers only from verified data |
-| [Crop Pest Advisor (LLM)](https://github.com/bikash9cmd/crop-pest-advisor-llm) | Bedrock assistant that tells farmers when a sprayed crop is safe to harvest |
+| [Crop Pest Advisor (LLM)](https://github.com/bikash9cmd/crop-pest-advisor-llm) | Bilingual Bedrock assistant that tells farmers when a sprayed crop is safe to harvest; its safety gate caught 290/290 seeded wrong answers |
 | [Monsoon Rainfall Lakehouse](https://github.com/bikash9cmd/monsoon-rainfall-lakehouse-nepal) | Serverless lakehouse over 50 years of Nepal rainfall, with a data-quality gate and extreme-rain bulletin |
 | [Earthquake Safety Check-in](https://github.com/bikash9cmd/earthquake-safety-checkin-nepal) | "I'm safe" earthquake check-in service designed to lose no check-ins at 15 million users |
 | [Trekker Safety Alerts](https://github.com/bikash9cmd/trekker-safety-alerts-nepal) | Trek safety check-ins and storm holds for Himalayan passes using NOAA GEFS forecasts |
