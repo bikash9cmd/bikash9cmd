@@ -3,7 +3,7 @@
 services:
   - type: web
     name: barsha-nepal-monsoon-lakehouse
-    repo: https://github.com/bikash9cmd/barsha-nepal-monsoon-lakehouse
+    repo: https://github.com/bikash9cmd/monsoon-rainfall-lakehouse-nepal
     branch: main
     runtime: python
     plan: free
@@ -15,7 +15,7 @@ services:
         value: 3.12.8
   - type: web
     name: bato-trek-safety-nepal
-    repo: https://github.com/bikash9cmd/bato-trek-safety-nepal
+    repo: https://github.com/bikash9cmd/trekker-safety-alerts-nepal
     branch: main
     runtime: python
     plan: free
@@ -27,7 +27,7 @@ services:
         value: 3.12.8
   - type: web
     name: bijuli-nepal-grid-forecast
-    repo: https://github.com/bikash9cmd/bijuli-nepal-grid-forecast
+    repo: https://github.com/bikash9cmd/electricity-demand-forecast-mlops
     branch: main
     runtime: python
     plan: free
@@ -39,7 +39,7 @@ services:
         value: 3.12.8
   - type: web
     name: chowk-kathmandu-traffic
-    repo: https://github.com/bikash9cmd/chowk-kathmandu-traffic
+    repo: https://github.com/bikash9cmd/traffic-vehicle-detection-edge
     branch: main
     runtime: python
     plan: free
@@ -51,7 +51,7 @@ services:
         value: 3.12.8
   - type: web
     name: fohor-kathmandu-waste
-    repo: https://github.com/bikash9cmd/fohor-kathmandu-waste
+    repo: https://github.com/bikash9cmd/waste-flow-pipeline-kathmandu
     branch: main
     runtime: python
     plan: free
@@ -63,7 +63,7 @@ services:
         value: 3.12.8
   - type: web
     name: hawa-kathmandu-air
-    repo: https://github.com/bikash9cmd/hawa-kathmandu-air
+    repo: https://github.com/bikash9cmd/air-quality-forecast-kathmandu
     branch: main
     runtime: python
     plan: free
@@ -75,7 +75,7 @@ services:
         value: 3.12.8
   - type: web
     name: parkha-nepal-safe-harvest
-    repo: https://github.com/bikash9cmd/parkha-nepal-safe-harvest
+    repo: https://github.com/bikash9cmd/crop-pest-advisor-llm
     branch: main
     runtime: python
     plan: free
@@ -87,7 +87,7 @@ services:
         value: 3.12.8
   - type: web
     name: sodhnus-nepal-rain-assistant
-    repo: https://github.com/bikash9cmd/sodhnus-nepal-rain-assistant
+    repo: https://github.com/bikash9cmd/bilingual-rainfall-rag-assistant
     branch: main
     runtime: python
     plan: free
@@ -99,7 +99,7 @@ services:
         value: 3.12.8
   - type: web
     name: surakshit-nepal-quake-checkin
-    repo: https://github.com/bikash9cmd/surakshit-nepal-quake-checkin
+    repo: https://github.com/bikash9cmd/earthquake-safety-checkin-nepal
     branch: main
     runtime: python
     plan: free
@@ -111,7 +111,7 @@ services:
         value: 3.12.8
   - type: web
     name: gopya
-    repo: https://github.com/bikash9cmd/gopya-company-rag
+    repo: https://github.com/bikash9cmd/rbac-rag-document-chatbot
     branch: main
     runtime: python
     plan: free

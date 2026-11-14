@@ -6,6 +6,7 @@
   <a href="https://www.linkedin.com/in/bikash9cmd"><img src="https://img.shields.io/badge/LinkedIn-bikash9cmd-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:kushwahabikash9580@gmail.com"><img src="https://img.shields.io/badge/Email-kushwahabikash9580%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://bikash9cmd-portfolio.onrender.com"><img src="https://img.shields.io/badge/Portfolio-live%20demos-46E3B7?style=flat&logo=render&logoColor=white" alt="Portfolio with live demos" /></a>
+  <a href="https://bikash9cmd.github.io"><img src="https://img.shields.io/badge/Website-bikash9cmd.github.io-222222?style=flat&logo=githubpages&logoColor=white" alt="Personal website" /></a>
   <img src="https://img.shields.io/badge/Based%20in-Kathmandu%2C%20Nepal-DC143C?style=flat" alt="Based in Kathmandu, Nepal" />
   <img src="https://komarev.com/ghpvc/?username=bikash9cmd&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
 </p>
@@ -42,6 +43,12 @@ Most of my open-source work tackles real problems in Nepal (air, rain, roads, po
 
 - 🤖 [Bedrock AgentCore Support Agent](https://github.com/bikash9cmd/bedrock-agentcore-support-agent): customer support agent on Amazon Bedrock AgentCore with Strands Agents, Cognito JWT auth, Cedar policies and OpenTelemetry tracing
 - ☸️ [AI Customer Service Agent on EKS](https://github.com/bikash9cmd/ai-customer-service-agent-eks): Strands Agents with self-hosted Qwen2.5-3B (vLLM + LiteLLM) on Amazon EKS
+- 🚚 [Freight Rate Prediction](https://github.com/bikash9cmd/freight-rate-prediction): LightGBM truckload pricing with data-quality cleaning and a time-based backtest (about 3% MAPE vs 8% for a baseline)
+- 📄 [PDF Q&A with Bedrock and LangChain](https://github.com/bikash9cmd/aws-bedrock-langchain-document-qa): RAG over a PDF with Titan embeddings, FAISS and Amazon Nova Lite
+- 🏬 [Retail Data Warehouse Pipeline](https://github.com/bikash9cmd/retail-dataware-house-pipeline): S3 to Redshift ELT with Airflow, dbt tests, star schema and a FastAPI analytics API
+- 🚲 [Bike Demand Forecast MLOps](https://github.com/bikash9cmd/bike-demand-forecast-mlops): Airflow, MLflow and Great Expectations with OLTP/OLAP storage
+- 💸 [AWS Cost Optimizer](https://github.com/bikash9cmd/cost-optimizer): Lambda + Cost Explorer spend alerts to Slack and idle-resource detection
+- 🏗️ [3-Tier Web App on AWS](https://github.com/bikash9cmd/aws-3-tier-web-app): Terraform VPC, ALB, Auto Scaling and RDS MySQL
 - 🧠 [MLOps Depression-Risk Pipeline](https://github.com/bikash9cmd/mlops-depression-risk-pipeline): Airflow, FastAPI, Redis, MariaDB, Evidently AI, Prometheus and Grafana on Docker Compose
 - 🏔️ [Trekker Safety Alerts](https://github.com/bikash9cmd/trekker-safety-alerts-nepal): trek check-ins and storm holds for Himalayan passes using NOAA GEFS forecasts
 - ♻️ [Waste Flow Pipeline](https://github.com/bikash9cmd/waste-flow-pipeline-kathmandu): lakehouse on AWS Open Data modelling Kathmandu Valley waste flows and landfill blockades
