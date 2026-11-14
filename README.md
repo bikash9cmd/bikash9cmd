@@ -46,7 +46,7 @@ Most of my open-source work tackles real problems in Nepal (air, rain, roads, po
 - 🚚 [Freight Rate Prediction](https://github.com/bikash9cmd/freight-rate-prediction): LightGBM truckload pricing with data-quality cleaning and a time-based backtest (about 3% MAPE vs 8% for a baseline)
 - 📄 [PDF Q&A with Bedrock and LangChain](https://github.com/bikash9cmd/aws-bedrock-langchain-document-qa): RAG over a PDF with Titan embeddings, FAISS and Amazon Nova Lite
 - 🏬 [Retail Data Warehouse Pipeline](https://github.com/bikash9cmd/retail-dataware-house-pipeline): S3 to Redshift ELT with Airflow, dbt tests, star schema and a FastAPI analytics API
-- 🚲 [Bike Demand Forecast MLOps](https://github.com/bikash9cmd/bike-demand-forecast-mlops): Airflow, MLflow and Great Expectations with OLTP/OLAP storage
+- 🚲 [Bike Demand Forecast MLOps](https://github.com/bikash9cmd/bike-demand-forecast-mlops): Airflow DAGs, FastAPI + Redis serving, MariaDB star schema, Evidently drift reports and Grafana monitoring
 - 💸 [AWS Cost Optimizer](https://github.com/bikash9cmd/cost-optimizer): Lambda + Cost Explorer spend alerts to Slack and idle-resource detection
 - 🏗️ [3-Tier Web App on AWS](https://github.com/bikash9cmd/aws-3-tier-web-app): Terraform VPC, ALB, Auto Scaling and RDS MySQL
 - 🧠 [MLOps Depression-Risk Pipeline](https://github.com/bikash9cmd/mlops-depression-risk-pipeline): Airflow, FastAPI, Redis, MariaDB, Evidently AI, Prometheus and Grafana on Docker Compose
